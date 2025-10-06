@@ -2,8 +2,6 @@
  * @author Gabri
  */
 
-package tarefa;
-
 import java.util.Scanner;
 
 public class main {
