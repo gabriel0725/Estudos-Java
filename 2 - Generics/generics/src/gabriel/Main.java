@@ -5,24 +5,27 @@
 package gabriel;
 
 import gabriel.carro.Carro;
+import gabriel.carro.Civic;
+import gabriel.carro.Etios;
+import gabriel.carro.Tiida;
 import gabriel.lista.ListaDeCarros;
 
 public class Main {
     public static void main(String[] args) {
-        ListaDeCarros lista1 = new ListaDeCarros();
+        ListaDeCarros lista = new ListaDeCarros();
 
-        Carro carroTeste = new Carro("Carro de teste", "testando");
+        Carro tiida = new Tiida();
+        Carro civic = new Civic();
+        Carro etios = new Etios();
 
-        lista1.adicionar(new Carro("Nissan", "Tiida"));
-        lista1.adicionar(new Carro("Toyota", "Etios"));
-        lista1.adicionar(new Carro("Honda", "Civic"));
-        lista1.adicionar(carroTeste);
-        lista1.adicionar("carro sobrecarga", "deu certo");
+        lista.adicionar(tiida);
+        lista.adicionar(civic);
+        lista.adicionar(etios);
 
+        lista.imprimirLista();
 
-        lista1.imprimirLista();
+        System.out.println("\nCarro no índice 1: " + lista.buscarPorIndice(1));
+        System.out.println("Total de carros: " + lista.tamanho());
 
-        System.out.println("\nPrimeiro carro: " + lista1.buscarPorIndice(1));
-        System.out.println("Total de carros: " + lista1.tamanho());
     }
 }

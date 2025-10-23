@@ -5,7 +5,6 @@
 package gabriel.lista;
 
 import gabriel.carro.Carro;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,11 +14,6 @@ public class ListaDeCarros implements GenericDAO<Carro> {
 
     @Override
     public void adicionar(Carro carro) {
-        carros.add(carro);
-    }
-
-    public void adicionar(String marca, String modelo) {
-        Carro carro = new Carro(marca, modelo);
         carros.add(carro);
     }
 
