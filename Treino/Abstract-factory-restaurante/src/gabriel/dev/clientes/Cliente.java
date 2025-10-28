@@ -21,6 +21,6 @@ public class Cliente {
         Bebida bebida = fabrica.criaBebida();
 
         comida.removeIngrediente(ingrediente);
-        bebida.escolherSemAcucar();
+        bebida.escolherSemAcucar()
     }
 }
