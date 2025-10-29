@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1 - Padroes de projeto/1 - Padroes de projeto.iml" filepath="$PROJECT_DIR$/1 - Padroes de projeto/1 - Padroes de projeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2 - Generics/2 - Generics.iml" filepath="$PROJECT_DIR$/2 - Generics/2 - Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3 - Anotation/Atividade anotation/Atividade anotation.iml" filepath="$PROJECT_DIR$/3 - Anotation/Atividade anotation/Atividade anotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/CadastroClienteSwing/CadastroClienteSwing.iml" filepath="$PROJECT_DIR$/Projetos/CadastroClienteSwing/CadastroClienteSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/CadastroClienteSwing/src/CadastroClienteSwing2.iml" filepath="$PROJECT_DIR$/Projetos/CadastroClienteSwing/src/CadastroClienteSwing2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Clark estudos.iml" filepath="$PROJECT_DIR$/.idea/Clark estudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3 - Anotation/PrimeiraAnotacao/PrimeiraAnotacao.iml" filepath="$PROJECT_DIR$/3 - Anotation/PrimeiraAnotacao/PrimeiraAnotacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/Projeto01_CadastroCliente/Projeto01_CadastroCliente.iml" filepath="$PROJECT_DIR$/Projetos/Projeto01_CadastroCliente/Projeto01_CadastroCliente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Treino/Treino.iml" filepath="$PROJECT_DIR$/Treino/Treino.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefas/colecoes_parte2/colecoes_parte2.iml" filepath="$PROJECT_DIR$/Tarefas/colecoes_parte2/colecoes_parte2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefas/exemplos_mod7/exemplos_mod7.iml" filepath="$PROJECT_DIR$/Tarefas/exemplos_mod7/exemplos_mod7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefas/tarefa_colecoes/tarefa_colecoes.iml" filepath="$PROJECT_DIR$/Tarefas/tarefa_colecoes/tarefa_colecoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefas/tarefa_controle-de-fluxo/tarefa_controle-de-fluxo.iml" filepath="$PROJECT_DIR$/Tarefas/tarefa_controle-de-fluxo/tarefa_controle-de-fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefas/tarefa_wrappers/tarefa_wrappers.iml" filepath="$PROJECT_DIR$/Tarefas/tarefa_wrappers/tarefa_wrappers.iml" />
+    </modules>
+  </component>
+</project>
