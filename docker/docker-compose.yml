@@ -9,10 +9,10 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - /Users/rodrigo.pires/dev/docker/volumes/PostgreSQL:/var/lib/postgresql/data
+      - D:/EBAC/Back-end/docker/arquivos_docker:/var/lib/postgresql/data
     networks:
       - postgres-ebac-network
-      
+
   ebac-pgadmin-compose:
     image: dpage/pgadmin4
     environment:

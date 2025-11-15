@@ -21,5 +21,5 @@ public class ClienteService extends GenericService<Cliente, Long> implements ICl
     public Cliente buscarPorCPF(Long cpf) {
         return this.dao.consultar(cpf);
     }
-    
+
 }
