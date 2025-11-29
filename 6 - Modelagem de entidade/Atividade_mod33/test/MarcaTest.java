@@ -28,18 +28,18 @@ public class MarcaTest {
         Marca marca = new Marca();
         marca.setPais("Japão");
         marca.setNome("Nissan");
-        marca.setCodigo("M1");
+        marca.setCodigo("M16");
         marca = marcaDao.cadastrar(marca);
 
-        Carro carro = criarCarro("C1", marca);
+        Carro carro = criarCarro("C15", marca);
 
         assertNotNull(marca);
         assertNotNull(marca.getId());
     }
 
     private Carro criarCarro(String codigo, Marca marca) {
-        Acessorio acessorio1 = criarAcessorio("A1");
-        Acessorio acessorio2 = criarAcessorio("A2");
+        Acessorio acessorio1 = criarAcessorio("A15");
+        Acessorio acessorio2 = criarAcessorio("A23");
         Carro carro = new Carro();
         carro.setNome("Tiida");
         carro.setCodigo(codigo);
