@@ -1,0 +1,11 @@
+server:
+  port: 8090
+  wait-time-in-ms-when-sync-empty: 3000
+
+spring:
+  profiles:
+    active: native
+  data:
+    mongodb:
+      uri: mongodb://admin:admin@127.0.0.1:27017/produto?authSource=admin
+      auto-index-creation: true
